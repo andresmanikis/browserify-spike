@@ -1,6 +1,8 @@
+var cool = require('cool-ascii-faces');
+
 var greeter = {
   greet: function() {
-    alert('Hello world!');
+    alert('Hello world! ' + cool());
   }
 };
 
